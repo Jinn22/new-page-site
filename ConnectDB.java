@@ -1,7 +1,7 @@
 public class ConnectDB {
    // JDBC driver name and database URL
    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-   static final String DB_URL = 'https://client-demos.accenture.com/apiv4/'
+   static final String DB_URL = '*** REMOVED ***' 
    
    public static void main(String[] args) {
         try{
@@ -10,8 +10,8 @@ public class ConnectDB {
 
             //STEP 3: Open a connection
             //Database credentials
-            String USER = 'admin_user'
-            String PASSWORD = 'changeme'
+            String USER = '*** REMOVED ***'
+            String PASSWORD = '*** REMOVED ***'
             System.out.println("Connecting to database...");
             Connection conn = DriverManager.getConnection(DB_URL,USER,PASSWORD);
 
