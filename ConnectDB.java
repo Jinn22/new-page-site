@@ -1,7 +1,7 @@
 public class ConnectDB {
    // JDBC driver name and database URL
    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-   static final String DB_URL = read_file('credentials.cfg')['url'];
+   static final String DB_URL = 'https://online-database.client.com:12345/api'
    
    public static void main(String[] args) {
         try{
@@ -10,8 +10,8 @@ public class ConnectDB {
 
             //STEP 3: Open a connection
             //Database credentials
-            String USER = read_file('credentials.cfg')['username']
-            String PASSWORD = read_file('credentials.cfg')['password']
+            String USER = 'robert.x.smith'
+            String PASSWORD = 'jl123LJd@!_'
             System.out.println("Connecting to database...");
             Connection conn = DriverManager.getConnection(DB_URL,USER,PASSWORD);
 
