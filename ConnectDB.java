@@ -6,7 +6,7 @@ public class ConnectDB {
    public static void main(String[] args) {
         try{
             //STEP 2: Register JDBC driver
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver"); 
 
             //STEP 3: Open a connection
             //Database credentials
